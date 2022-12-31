@@ -1,0 +1,141 @@
+*,*::before,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.layout{
+  width: 1100px;
+  margin: 0 auto;
+}
+body{
+  background: rgb(28,64,59);
+  background: linear-gradient(90deg, rgba(28,64,59,1) 3%, rgba(31,58,66,1) 58%, rgba(40,43,83,1) 82%, rgba(47,30,98,1) 100%, rgba(58,9,121,1) 100%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+  height: 100vh;
+}
+header{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+nav > ul > li{
+  list-style: none;
+  display: inline;
+}
+a{
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+}
+nav > ul > li a{
+  margin: 0 7px;
+}
+nav > ul > li a:hover{
+  cursor: pointer;
+  font-weight: bolder;
+  color: black;
+}
+p{
+  font-size: large;
+}
+.welcome{
+  text-transform: capitalize;
+}
+.job{
+  font-size: 50px;
+  color: cadetblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin-left: 270px;
+  text-transform: capitalize;
+}
+.my-projects-btn{
+  background-color: rgb(49, 119, 154);
+  padding: 7px;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 100px;
+}
+.my-projects-btn:hover{
+  padding: 8px;
+  opacity: 1;
+}
+.title{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 18px;
+  border-bottom: 1px solid white ;
+}
+.container-2{
+  height: 96vh;
+}
+.desc{
+  margin-bottom: 20px;
+}
+.education-list{
+  list-style: none;
+  margin-left: 5px;
+  font-size: large;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+}
+.about-me{
+  width: 45%;
+  margin: 0 20px 70px 0;
+  margin-right: 20px;
+}
+.card{
+  width: 240px;
+  height: 240px;  
+  margin-right: 70px;
+  text-align: center ;
+}
+.projects{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.projects-header{
+  margin-top: 18px;
+}
+.project-image{
+  width: 200px;
+  height: 200px;
+}
+.project-title{
+  text-transform: capitalize;
+}
+.projects-btn{
+  background-color: rgb(49, 119, 154);
+  padding: 3px;
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.projects-btn:hover{
+  padding: 4px;
+  opacity: 1;
+}
+.fa-brands{
+  font-size: 40px;
+  margin: 80px 30px 15px 0;
+}
+.social-media{
+  text-align: center;
+}
+.fa-linkedin-in{
+  color: rgb(64, 123, 186);
+}
+
+
+
+
+
+
