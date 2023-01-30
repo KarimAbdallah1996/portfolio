@@ -17,7 +17,7 @@ fetch(url)
     repoTitle.innerText = data[i].name
     repoLink.appendChild(repoTitle)
     let repoImage = document.createElement("img")
-    // repoImage.src = `https://raw.githubusercontent.com/KarimAbdallah1996/${data[0].name}/main/${data[0].name}`
+    repoImage.src = `https://raw.githubusercontent.com/KarimAbdallah1996/${data[i].name}/main/${data[i].name}.png`
     repoImage.alt = `${data[i].name} image`
     repoLink.appendChild(repoImage)
     }
